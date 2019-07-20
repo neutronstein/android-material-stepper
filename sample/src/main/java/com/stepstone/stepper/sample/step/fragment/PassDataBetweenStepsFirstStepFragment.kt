@@ -17,7 +17,7 @@ limitations under the License.
 package com.stepstone.stepper.sample.step.fragment
 
 import android.content.Context
-import android.support.annotation.UiThread
+import androidx.annotation.UiThread
 import android.widget.EditText
 
 import com.stepstone.stepper.BlockingStep

@@ -1,8 +1,8 @@
 package com.stepstone.stepper.sample.test.runner;
 
 import android.os.Bundle;
-import android.support.test.InstrumentationRegistry;
-import android.support.test.runner.AndroidJUnitRunner;
+import androidx.test.InstrumentationRegistry;
+import androidx.test.runner.AndroidJUnitRunner;
 
 import com.linkedin.android.testbutler.TestButler;
 

@@ -1,10 +1,10 @@
 package com.stepstone.stepper.test;
 
-import android.support.annotation.IntRange;
-import android.support.test.espresso.Espresso;
-import android.support.test.espresso.UiController;
-import android.support.test.espresso.ViewAction;
-import android.support.v4.view.ViewPager;
+import androidx.annotation.IntRange;
+import androidx.test.espresso.Espresso;
+import androidx.test.espresso.UiController;
+import androidx.test.espresso.ViewAction;
+import androidx.viewpager.widget.ViewPager;
 import android.view.View;
 import android.view.ViewGroup;
 
@@ -14,7 +14,7 @@ import com.stepstone.stepper.test.idling.CustomViewPagerListener;
 
 import org.hamcrest.Matcher;
 
-import static android.support.test.espresso.matcher.ViewMatchers.isDisplayed;
+import static androidx.test.espresso.matcher.ViewMatchers.isDisplayed;
 
 /**
  * A set of actions which can potentially change the currently selected step in a {@link com.stepstone.stepper.StepperLayout}.

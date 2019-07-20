@@ -18,7 +18,7 @@
 
 package com.stepstone.stepper;
 
-import android.support.annotation.UiThread;
+import androidx.annotation.UiThread;
 
 /**
  * A {@link Step} which can block clicking on the next button/tab

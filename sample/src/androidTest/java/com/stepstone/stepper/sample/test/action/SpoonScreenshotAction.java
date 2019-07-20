@@ -3,8 +3,8 @@ package com.stepstone.stepper.sample.test.action;
 import android.app.Activity;
 import android.content.Context;
 import android.content.ContextWrapper;
-import android.support.test.espresso.UiController;
-import android.support.test.espresso.ViewAction;
+import androidx.test.espresso.UiController;
+import androidx.test.espresso.ViewAction;
 import android.util.Log;
 import android.view.View;
 
@@ -15,8 +15,8 @@ import org.hamcrest.Matchers;
 
 import java.io.File;
 
-import static android.support.test.espresso.Espresso.onView;
-import static android.support.test.espresso.matcher.ViewMatchers.withId;
+import static androidx.test.espresso.Espresso.onView;
+import static androidx.test.espresso.matcher.ViewMatchers.withId;
 
 /**
  * Class to take screenshots using Spoon library from an Espresso test

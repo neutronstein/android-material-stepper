@@ -1,8 +1,8 @@
 package com.stepstone.stepper.sample;
 
 import android.app.Activity;
-import android.support.annotation.NonNull;
-import android.support.test.espresso.intent.rule.IntentsTestRule;
+import androidx.annotation.NonNull;
+import androidx.test.espresso.intent.rule.IntentsTestRule;
 
 import org.junit.Rule;
 

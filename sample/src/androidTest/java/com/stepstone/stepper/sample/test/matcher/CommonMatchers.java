@@ -1,8 +1,8 @@
 package com.stepstone.stepper.sample.test.matcher;
 
-import android.support.annotation.ColorRes;
-import android.support.annotation.IntRange;
-import android.support.annotation.NonNull;
+import androidx.annotation.ColorRes;
+import androidx.annotation.IntRange;
+import androidx.annotation.NonNull;
 import android.view.View;
 
 import com.stepstone.stepper.internal.widget.StepTabStateMatcher;
@@ -10,11 +10,11 @@ import com.stepstone.stepper.sample.R;
 
 import org.hamcrest.Matcher;
 
-import static android.support.test.espresso.Espresso.onView;
-import static android.support.test.espresso.assertion.ViewAssertions.matches;
-import static android.support.test.espresso.matcher.ViewMatchers.hasTextColor;
-import static android.support.test.espresso.matcher.ViewMatchers.isDisplayed;
-import static android.support.test.espresso.matcher.ViewMatchers.withId;
+import static androidx.test.espresso.Espresso.onView;
+import static androidx.test.espresso.assertion.ViewAssertions.matches;
+import static androidx.test.espresso.matcher.ViewMatchers.hasTextColor;
+import static androidx.test.espresso.matcher.ViewMatchers.isDisplayed;
+import static androidx.test.espresso.matcher.ViewMatchers.withId;
 import static com.stepstone.stepper.sample.test.matcher.StepperLayoutTabStateMatcher.tabAtPositionIsInState;
 import static com.stepstone.stepper.sample.test.matcher.ViewPagerPositionMatcher.hasPagePosition;
 import static com.stepstone.stepper.test.StepperLayoutTabSubtitleMatcher.tabAtPositionHasSubtitle;

@@ -1,6 +1,6 @@
 package com.stepstone.stepper.internal.util;
 
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 
 /**
  * This class consists of {@code static} utility methods for operating

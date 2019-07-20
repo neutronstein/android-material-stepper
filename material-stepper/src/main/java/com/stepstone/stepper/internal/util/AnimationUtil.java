@@ -1,15 +1,15 @@
 package com.stepstone.stepper.internal.util;
 
 import android.animation.Animator;
-import android.support.annotation.IntDef;
-import android.support.annotation.NonNull;
-import android.support.annotation.RestrictTo;
+import androidx.annotation.IntDef;
+import androidx.annotation.NonNull;
+import androidx.annotation.RestrictTo;
 import android.view.View;
 import android.view.ViewPropertyAnimator;
 
 import java.lang.annotation.Retention;
 
-import static android.support.annotation.RestrictTo.Scope.LIBRARY;
+import static androidx.annotation.RestrictTo.Scope.LIBRARY;
 import static java.lang.annotation.RetentionPolicy.SOURCE;
 
 /**

@@ -16,12 +16,12 @@ limitations under the License.
 
 package com.stepstone.stepper.internal.feedback;
 
-import android.support.annotation.NonNull;
-import android.support.annotation.RestrictTo;
+import androidx.annotation.NonNull;
+import androidx.annotation.RestrictTo;
 
 import com.stepstone.stepper.StepperLayout;
 
-import static android.support.annotation.RestrictTo.Scope.LIBRARY;
+import static androidx.annotation.RestrictTo.Scope.LIBRARY;
 
 /**
  * Factory class for creating feedback stepper types.

@@ -1,7 +1,7 @@
 package com.stepstone.stepper.sample.adapter
 
 import android.content.Context
-import android.support.annotation.IntRange
+import androidx.annotation.IntRange
 import android.util.SparseArray
 import android.view.View
 import android.view.ViewGroup

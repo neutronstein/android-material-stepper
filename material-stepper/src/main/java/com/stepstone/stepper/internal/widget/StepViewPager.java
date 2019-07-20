@@ -17,14 +17,14 @@ limitations under the License.
 package com.stepstone.stepper.internal.widget;
 
 import android.content.Context;
-import android.support.annotation.RestrictTo;
-import android.support.v4.view.ViewPager;
+import androidx.annotation.RestrictTo;
+import androidx.viewpager.widget.ViewPager;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 
 import com.stepstone.stepper.internal.widget.pagetransformer.StepPageTransformerFactory;
 
-import static android.support.annotation.RestrictTo.Scope.LIBRARY;
+import static androidx.annotation.RestrictTo.Scope.LIBRARY;
 
 /**
  * A non-swipeable viewpager with RTL support.<br>

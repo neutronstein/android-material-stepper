@@ -1,8 +1,8 @@
 package com.stepstone.stepper.test;
 
-import android.support.annotation.IntRange;
-import android.support.annotation.NonNull;
-import android.support.test.espresso.matcher.BoundedMatcher;
+import androidx.annotation.IntRange;
+import androidx.annotation.NonNull;
+import androidx.test.espresso.matcher.BoundedMatcher;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;

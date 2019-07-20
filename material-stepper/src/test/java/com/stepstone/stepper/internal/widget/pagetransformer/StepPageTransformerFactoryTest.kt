@@ -1,7 +1,7 @@
 package com.stepstone.stepper.internal.widget.pagetransformer
 
 import android.os.Build
-import android.support.v4.view.ViewPager
+import androidx.viewpager.widget.ViewPager
 import com.stepstone.stepper.test.runner.StepperRobolectricTestRunner
 import org.hamcrest.MatcherAssert.assertThat
 import org.hamcrest.Matchers.instanceOf

@@ -21,20 +21,20 @@ import android.content.res.ColorStateList;
 import android.content.res.TypedArray;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
-import android.support.annotation.AttrRes;
-import android.support.annotation.ColorInt;
-import android.support.annotation.DrawableRes;
-import android.support.annotation.FloatRange;
-import android.support.annotation.IntRange;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.annotation.StyleRes;
-import android.support.annotation.UiThread;
-import android.support.v4.content.ContextCompat;
-import android.support.v4.content.res.ResourcesCompat;
-import android.support.v4.view.ViewPager;
-import android.support.v7.view.ContextThemeWrapper;
-import android.support.v7.widget.LinearLayoutCompat;
+import androidx.annotation.AttrRes;
+import androidx.annotation.ColorInt;
+import androidx.annotation.DrawableRes;
+import androidx.annotation.FloatRange;
+import androidx.annotation.IntRange;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.annotation.StyleRes;
+import androidx.annotation.UiThread;
+import androidx.core.content.ContextCompat;
+import androidx.core.content.res.ResourcesCompat;
+import androidx.viewpager.widget.ViewPager;
+import androidx.appcompat.view.ContextThemeWrapper;
+import androidx.appcompat.widget.LinearLayoutCompat;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
@@ -352,7 +352,7 @@ public class StepperLayout extends LinearLayout implements TabsContainer.TabItem
 
     /**
      * Overrides the default page transformer used in the underlying {@link com.stepstone.stepper.internal.widget.StepViewPager}.
-     * If you're supporting RTL make sure your {@link android.support.v4.view.ViewPager.PageTransformer} accounts for it.
+     * If you're supporting RTL make sure your {@link ViewPager.PageTransformer} accounts for it.
      *
      * @param pageTransformer new page transformer
      * @see com.stepstone.stepper.internal.widget.StepViewPager

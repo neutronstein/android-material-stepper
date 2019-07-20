@@ -17,13 +17,13 @@ limitations under the License.
 package com.stepstone.stepper.internal.widget;
 
 import android.content.Context;
-import android.support.annotation.RestrictTo;
-import android.support.v7.widget.AppCompatButton;
+import androidx.annotation.RestrictTo;
+import androidx.appcompat.widget.AppCompatButton;
 import android.util.AttributeSet;
 
 import com.stepstone.stepper.R;
 
-import static android.support.annotation.RestrictTo.Scope.LIBRARY;
+import static androidx.annotation.RestrictTo.Scope.LIBRARY;
 
 /**
  * A button with an extra state to distinguish if the user can go to the next step.<br>

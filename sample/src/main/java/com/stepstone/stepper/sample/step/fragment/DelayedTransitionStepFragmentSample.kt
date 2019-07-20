@@ -17,9 +17,9 @@ limitations under the License.
 package com.stepstone.stepper.sample.step.fragment
 
 import android.os.Handler
-import android.support.annotation.UiThread
-import android.support.v7.app.AlertDialog
-import android.support.v7.widget.SwitchCompat
+import androidx.annotation.UiThread
+import androidx.appcompat.app.AlertDialog
+import androidx.appcompat.widget.SwitchCompat
 import android.widget.Toast
 import butterknife.BindView
 import com.stepstone.stepper.BlockingStep
@@ -59,7 +59,7 @@ internal class DelayedTransitionStepFragmentSample : ButterKnifeFragment(), Bloc
 
     @UiThread
     override fun onNextClicked(callback: StepperLayout.OnNextClickedCallback) {
-        val builder = AlertDialog.Builder(activity)
+        val builder = AlertDialog.Builder(activity!!)
         builder.setView(R.layout.dialog_loader)
         builder.setCancelable(false)
         dialog = builder.show()

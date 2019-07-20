@@ -1,19 +1,19 @@
 package com.stepstone.stepper.sample;
 
-import android.support.test.espresso.matcher.ViewMatchers;
-import android.support.test.filters.LargeTest;
+import androidx.test.espresso.matcher.ViewMatchers;
+import androidx.test.filters.LargeTest;
 
 import com.stepstone.stepper.internal.widget.StepTabStateMatcher;
 import com.stepstone.stepper.sample.test.action.SpoonScreenshotAction;
 
 import org.junit.Test;
 
-import static android.support.test.espresso.Espresso.onView;
-import static android.support.test.espresso.action.ViewActions.doubleClick;
-import static android.support.test.espresso.matcher.ViewMatchers.isCompletelyDisplayed;
-import static android.support.test.espresso.matcher.ViewMatchers.withEffectiveVisibility;
-import static android.support.test.espresso.matcher.ViewMatchers.withId;
-import static android.support.test.espresso.matcher.ViewMatchers.withText;
+import static androidx.test.espresso.Espresso.onView;
+import static androidx.test.espresso.action.ViewActions.doubleClick;
+import static androidx.test.espresso.matcher.ViewMatchers.isCompletelyDisplayed;
+import static androidx.test.espresso.matcher.ViewMatchers.withEffectiveVisibility;
+import static androidx.test.espresso.matcher.ViewMatchers.withId;
+import static androidx.test.espresso.matcher.ViewMatchers.withText;
 import static com.stepstone.stepper.sample.test.matcher.CommonMatchers.checkCurrentStepIs;
 import static com.stepstone.stepper.sample.test.matcher.CommonMatchers.checkTabState;
 import static com.stepstone.stepper.sample.test.matcher.CommonMatchers.checkTabSubtitle;

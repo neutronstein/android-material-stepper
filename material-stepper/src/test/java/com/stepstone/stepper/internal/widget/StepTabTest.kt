@@ -2,7 +2,7 @@ package com.stepstone.stepper.internal.widget
 
 import android.annotation.SuppressLint
 import android.os.Build
-import android.support.v7.view.ContextThemeWrapper
+import androidx.appcompat.view.ContextThemeWrapper
 import com.nhaarman.mockito_kotlin.whenever
 import com.stepstone.stepper.R
 import com.stepstone.stepper.VerificationError

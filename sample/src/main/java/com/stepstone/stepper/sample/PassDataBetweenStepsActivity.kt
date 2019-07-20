@@ -17,7 +17,7 @@ limitations under the License.
 package com.stepstone.stepper.sample
 
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 
 import com.stepstone.stepper.StepperLayout
 import com.stepstone.stepper.sample.adapter.PassDataBetweenStepsFragmentStepAdapter

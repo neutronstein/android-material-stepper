@@ -1,6 +1,6 @@
 package com.stepstone.stepper.internal.widget;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import org.hamcrest.Description;
 import org.hamcrest.TypeSafeMatcher;

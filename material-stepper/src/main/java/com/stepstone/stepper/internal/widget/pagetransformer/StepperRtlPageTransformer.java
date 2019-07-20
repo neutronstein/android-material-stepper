@@ -1,13 +1,13 @@
 package com.stepstone.stepper.internal.widget.pagetransformer;
 
-import android.support.annotation.RestrictTo;
-import android.support.v4.view.ViewPager;
+import androidx.annotation.RestrictTo;
+import androidx.viewpager.widget.ViewPager;
 import android.view.View;
 
-import static android.support.annotation.RestrictTo.Scope.LIBRARY;
+import static androidx.annotation.RestrictTo.Scope.LIBRARY;
 
 /**
- * A {@link android.support.v4.view.ViewPager.PageTransformer} which reverses
+ * A {@link ViewPager.PageTransformer} which reverses
  * the direction in which the pages slide in.
  *
  * @author Piotr Zawadzki

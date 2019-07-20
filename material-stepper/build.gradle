@@ -42,7 +42,7 @@ android {
 }
 
 dependencies {
-    api "com.android.support:appcompat-v7:$androidSupportLibraryVersion"
+    api "androidx.appcompat:appcompat:1.0.2"
 
     testImplementation "junit:junit:$junitVersion"
     testImplementation "org.mockito:mockito-core:$mockitoVersion"
@@ -51,9 +51,10 @@ dependencies {
         exclude group: 'commons-logging', module: 'commons-logging'
         exclude group: 'org.apache.httpcomponents', module: 'httpclient'
     }
-    testImplementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlinVersion"
+    testImplementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlinVersion"
     testImplementation "org.jetbrains.kotlin:kotlin-reflect:$kotlinVersion"
     testImplementation "com.nhaarman:mockito-kotlin:$mockitoKotlinVersion"
+//    testImplementation "com.nhaarman.mockitokotlin2:mockito-kotlin:$mockitoKotlin2Version"
 }
 
 gradle.taskGraph.beforeTask { Task task ->

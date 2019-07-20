@@ -17,7 +17,7 @@ android {
 
 dependencies {
     api project(':material-stepper')
-    api "com.android.support.test.espresso:espresso-core:$espressoVersion"
+    api "androidx.test.espresso:espresso-core:3.1.0"
 }
 
 gradle.taskGraph.beforeTask { Task task ->

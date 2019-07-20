@@ -16,8 +16,8 @@ limitations under the License.
 
 package com.stepstone.stepper.internal.type;
 
-import android.support.annotation.NonNull;
-import android.support.annotation.RestrictTo;
+import androidx.annotation.NonNull;
+import androidx.annotation.RestrictTo;
 import android.view.View;
 
 import com.stepstone.stepper.R;
@@ -25,7 +25,7 @@ import com.stepstone.stepper.StepperLayout;
 import com.stepstone.stepper.adapter.StepAdapter;
 import com.stepstone.stepper.internal.widget.ColorableProgressBar;
 
-import static android.support.annotation.RestrictTo.Scope.LIBRARY;
+import static androidx.annotation.RestrictTo.Scope.LIBRARY;
 
 /**
  * Stepper type which displays a mobile step progress bar.

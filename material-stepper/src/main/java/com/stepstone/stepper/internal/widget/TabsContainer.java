@@ -17,11 +17,11 @@ limitations under the License.
 package com.stepstone.stepper.internal.widget;
 
 import android.content.Context;
-import android.support.annotation.ColorInt;
-import android.support.annotation.NonNull;
-import android.support.annotation.RestrictTo;
-import android.support.annotation.UiThread;
-import android.support.v4.content.ContextCompat;
+import androidx.annotation.ColorInt;
+import androidx.annotation.NonNull;
+import androidx.annotation.RestrictTo;
+import androidx.annotation.UiThread;
+import androidx.core.content.ContextCompat;
 import android.util.AttributeSet;
 import android.util.SparseArray;
 import android.view.LayoutInflater;
@@ -37,7 +37,7 @@ import com.stepstone.stepper.viewmodel.StepViewModel;
 
 import java.util.List;
 
-import static android.support.annotation.RestrictTo.Scope.LIBRARY;
+import static androidx.annotation.RestrictTo.Scope.LIBRARY;
 
 /**
  * Layout used for displaying tabs from the horizontal stepper.

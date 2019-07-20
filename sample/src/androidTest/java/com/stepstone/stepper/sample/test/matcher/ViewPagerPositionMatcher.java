@@ -1,15 +1,15 @@
 package com.stepstone.stepper.sample.test.matcher;
 
-import android.support.annotation.IntRange;
-import android.support.annotation.NonNull;
-import android.support.test.espresso.matcher.BoundedMatcher;
-import android.support.v4.view.ViewPager;
+import androidx.annotation.IntRange;
+import androidx.annotation.NonNull;
+import androidx.test.espresso.matcher.BoundedMatcher;
+import androidx.viewpager.widget.ViewPager;
 import android.view.View;
 
 import org.hamcrest.Description;
 import org.hamcrest.Matcher;
 
-import static android.support.test.espresso.core.internal.deps.guava.base.Preconditions.checkNotNull;
+import static androidx.test.espresso.core.internal.deps.guava.base.Preconditions.checkNotNull;
 import static org.hamcrest.Matchers.is;
 
 /**

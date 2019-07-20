@@ -38,15 +38,20 @@ android {
     adbOptions {
         installOptions getAdbInstallOptions()
     }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
 }
 
 dependencies {
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlinVersion"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlinVersion"
 
     implementation project(':material-stepper')
-    implementation "com.android.support:appcompat-v7:$androidSupportLibraryVersion"
-    implementation "com.android.support:recyclerview-v7:$androidSupportLibraryVersion"
-    implementation "com.android.support:design:$androidSupportLibraryVersion"
+    implementation "androidx.appcompat:appcompat:1.0.0"
+    implementation "androidx.recyclerview:recyclerview:1.0.0"
+    implementation "com.google.android.material:material:1.0.0"
 
     implementation "com.jakewharton:butterknife:$butterknifeVersion"
     kapt "com.jakewharton:butterknife-compiler:$butterknifeVersion"
@@ -55,21 +60,21 @@ dependencies {
 
     androidTestImplementation project(':espresso-material-stepper')
 
-    androidTestImplementation "com.android.support.test:runner:$supportTestVersion"
-    androidTestImplementation "com.android.support.test:rules:$supportTestVersion"
-    androidTestImplementation "com.android.support.test.espresso:espresso-core:$espressoVersion"
-    androidTestImplementation "com.android.support.test.espresso:espresso-intents:$espressoVersion"
-    androidTestImplementation "com.android.support.test.espresso:espresso-contrib:$espressoVersion"
+    androidTestImplementation "androidx.test:runner:1.1.0"
+    androidTestImplementation "androidx.test:rules:1.1.0"
+    androidTestImplementation "androidx.test.espresso:espresso-core:3.1.0"
+    androidTestImplementation "androidx.test.espresso:espresso-intents:3.1.0"
+    androidTestImplementation "androidx.test.espresso:espresso-contrib:3.1.0"
     androidTestImplementation "com.linkedin.testbutler:test-butler-library:$testButlerVersion"
 
     androidTestUtil "com.linkedin.testbutler:test-butler-app:$testButlerVersion@apk"
-    androidTestImplementation("com.android.support:support-annotations:$androidSupportLibraryVersion") {
+    androidTestImplementation("androidx.annotation:annotation:1.0.0") {
         force = true
     }
-    androidTestImplementation("com.android.support:support-v4:$androidSupportLibraryVersion") {
+    androidTestImplementation("androidx.legacy:legacy-support-v4:1.0.0") {
         force = true
     }
-    androidTestImplementation("com.android.support:appcompat-v7:$androidSupportLibraryVersion") {
+    androidTestImplementation("androidx.appcompat:appcompat:1.0.0") {
         force = true
     }
 }

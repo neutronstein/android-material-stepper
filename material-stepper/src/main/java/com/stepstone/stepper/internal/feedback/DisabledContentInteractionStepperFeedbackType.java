@@ -16,14 +16,14 @@ limitations under the License.
 
 package com.stepstone.stepper.internal.feedback;
 
-import android.support.annotation.NonNull;
-import android.support.annotation.RestrictTo;
+import androidx.annotation.NonNull;
+import androidx.annotation.RestrictTo;
 
 import com.stepstone.stepper.R;
 import com.stepstone.stepper.StepperLayout;
 import com.stepstone.stepper.internal.widget.StepViewPager;
 
-import static android.support.annotation.RestrictTo.Scope.LIBRARY;
+import static androidx.annotation.RestrictTo.Scope.LIBRARY;
 
 /**
  * Feedback stepper type which intercepts touch events on the steps' content and ignores them.

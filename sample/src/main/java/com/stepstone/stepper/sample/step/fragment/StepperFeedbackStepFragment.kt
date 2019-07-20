@@ -18,7 +18,7 @@ package com.stepstone.stepper.sample.step.fragment
 
 import android.os.Bundle
 import android.os.Handler
-import android.support.annotation.UiThread
+import androidx.annotation.UiThread
 import android.view.View
 import android.widget.TextView
 
@@ -47,9 +47,9 @@ internal class StepperFeedbackStepFragment : ButterKnifeFragment(), BlockingStep
     @BindView(R.id.stepContent)
     lateinit var stepContent: TextView
 
-    override fun onViewCreated(view: View?, savedInstanceState: Bundle?) {
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        stepContent.text = "Step content #${arguments.getInt(STEP_POSITION)} \n ${getString(R.string.lorem_ipsum)}"
+        stepContent.text = "Step content #${arguments!!.getInt(STEP_POSITION)} \n ${getString(R.string.lorem_ipsum)}"
     }
 
     override fun verifyStep(): VerificationError? {

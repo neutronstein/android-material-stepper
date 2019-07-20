@@ -16,12 +16,12 @@ limitations under the License.
 
 package com.stepstone.stepper.internal.type;
 
-import android.support.annotation.RestrictTo;
+import androidx.annotation.RestrictTo;
 import android.util.Log;
 
 import com.stepstone.stepper.StepperLayout;
 
-import static android.support.annotation.RestrictTo.Scope.LIBRARY;
+import static androidx.annotation.RestrictTo.Scope.LIBRARY;
 
 /**
  * Factory class for creating stepper types.

@@ -1,9 +1,9 @@
 package com.stepstone.stepper.sample;
 
-import android.support.annotation.NonNull;
-import android.support.annotation.StringRes;
-import android.support.test.espresso.contrib.RecyclerViewActions;
-import android.support.test.filters.LargeTest;
+import androidx.annotation.NonNull;
+import androidx.annotation.StringRes;
+import androidx.test.espresso.contrib.RecyclerViewActions;
+import androidx.test.filters.LargeTest;
 
 import com.stepstone.stepper.sample.test.action.SpoonScreenshotAction;
 
@@ -11,13 +11,13 @@ import org.junit.Test;
 
 import java.util.Locale;
 
-import static android.support.test.espresso.Espresso.onView;
-import static android.support.test.espresso.action.ViewActions.click;
-import static android.support.test.espresso.intent.Intents.intended;
-import static android.support.test.espresso.intent.matcher.IntentMatchers.hasComponent;
-import static android.support.test.espresso.matcher.ViewMatchers.withChild;
-import static android.support.test.espresso.matcher.ViewMatchers.withId;
-import static android.support.test.espresso.matcher.ViewMatchers.withText;
+import static androidx.test.espresso.Espresso.onView;
+import static androidx.test.espresso.action.ViewActions.click;
+import static androidx.test.espresso.intent.Intents.intended;
+import static androidx.test.espresso.intent.matcher.IntentMatchers.hasComponent;
+import static androidx.test.espresso.matcher.ViewMatchers.withChild;
+import static androidx.test.espresso.matcher.ViewMatchers.withId;
+import static androidx.test.espresso.matcher.ViewMatchers.withText;
 
 /**
  * Performs sanity tests i.e. open each sample app Activity and makes a screenshot of the screen.

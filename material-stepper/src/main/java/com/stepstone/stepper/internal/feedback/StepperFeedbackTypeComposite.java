@@ -16,13 +16,13 @@ limitations under the License.
 
 package com.stepstone.stepper.internal.feedback;
 
-import android.support.annotation.NonNull;
-import android.support.annotation.RestrictTo;
+import androidx.annotation.NonNull;
+import androidx.annotation.RestrictTo;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static android.support.annotation.RestrictTo.Scope.LIBRARY;
+import static androidx.annotation.RestrictTo.Scope.LIBRARY;
 
 /**
  * A stepper feedback type which is a composition of other feedback type, which allows to select only a group of feedback types.

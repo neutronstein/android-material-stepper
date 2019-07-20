@@ -1,8 +1,8 @@
 package com.stepstone.stepper.sample.adapter
 
 import android.content.Context
-import android.support.annotation.IntRange
-import android.support.v4.app.FragmentManager
+import androidx.annotation.IntRange
+import androidx.fragment.app.FragmentManager
 
 import com.stepstone.stepper.Step
 import com.stepstone.stepper.adapter.AbstractFragmentStepAdapter

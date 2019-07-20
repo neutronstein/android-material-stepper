@@ -1,9 +1,9 @@
 package com.stepstone.stepper.test.idling;
 
 
-import android.support.annotation.Nullable;
-import android.support.test.espresso.IdlingResource;
-import android.support.v4.view.ViewPager;
+import androidx.annotation.Nullable;
+import androidx.test.espresso.IdlingResource;
+import androidx.viewpager.widget.ViewPager;
 
 /**
  * View pager listener that serves as Espresso's {@link IdlingResource} and notifies the
